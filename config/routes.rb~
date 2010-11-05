@@ -1,5 +1,7 @@
 Blog::Application.routes.draw do
-  root :to => "pages#home"
+  resources :wigs
+
+  root :to => "pages#home" # :as :home
 
   resources :posts
 

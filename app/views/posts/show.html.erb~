@@ -10,11 +10,6 @@
   <%= @post.title %>
 </p>
 
-<p>
-  <b>Body:</b>
-  <%= @post.body %>
-</p>
-
 <h2>Comments</h2>
 <%= render :partial => "comments/comment",
            :collection => @post.comments %>

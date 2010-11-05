@@ -1,9 +1,11 @@
 Blog::Application.routes.draw do
   resources :wigs
 
-  root :to => "pages#home"  # Add AS ALIAS
+  root :to => "pages#home" # :as :home
 
-  resources :posts
+  resources :posts do
+    resources :comments
+  end
 
   get "pages/home"
 
