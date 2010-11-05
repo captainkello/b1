@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do
+  resources :wigs
+
   root :to => "pages#home"  # Add AS ALIAS
 
   resources :posts
