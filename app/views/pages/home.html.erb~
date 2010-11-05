@@ -1,0 +1,2 @@
+<h1><%= link_to "New Post", new_post_url %> | <%= link_to "List Posts", posts_url %></h1>
+<p>Welcome to our application</p>

@@ -7,7 +7,7 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-<h3><%= link_to "Home", root_path %> | <%= link_to "About", "#" %></h3>
+<h3><%= link_to "Home", root_url %> | <%= link_to "About", "#" %></h3>
 <%= yield %>
 
 </body>

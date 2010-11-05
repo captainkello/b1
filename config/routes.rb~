@@ -1,5 +1,5 @@
 Blog::Application.routes.draw do
-  root :to => "pages#home"  # Add AS ALIAS
+  root :to => "pages#home"
 
   resources :posts
 
