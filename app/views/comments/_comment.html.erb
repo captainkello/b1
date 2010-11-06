@@ -5,5 +5,7 @@
 
 
   <b>Comment:</b>
-  <%= comment.body %>
+  <%= comment.body %> | <%= link_to "Destroy", [comment.post, comment],
+                                    :confirm => 'Are you sure?',
+                                    :method => :delete %>
 <br />
